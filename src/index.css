@@ -32,20 +32,20 @@ nav button:hover {
   color: #bbb;
 }
 
-/*form styles*/
-.form {
+/* form styles */
+form {
   max-width: 40%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1px;
+  margin-bottom: 1em;
 }
 
 label span {
-  margin-bottom: .3em;
+  margin-bottom: 0.3em;
   font-weight: bold;
   text-align: left;
 }
@@ -74,6 +74,7 @@ textarea::placeholder {
   font-weight: bold;
   border: none;
   padding: 10px 15px;
+  margin-top: 15px;
   font-size: 1em;
 }
 
@@ -114,5 +115,3 @@ button[disabled] {
   padding: 5px;
   border-radius: 5px;
 }
-
-
